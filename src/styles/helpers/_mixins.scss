@@ -1,0 +1,15 @@
+@mixin text ($font-weight,$font-size,$font,$color)  {
+    font-weight: $font-weight;
+    font-size: $font-size;
+    font-family: $font;
+    color: $color;
+}
+@mixin bg ($width,$height,$bg-color){
+    width: $width;
+    height: $height;
+    background-color: $bg-color;
+}
+@mixin button ($width,$height,$bg-color,$border-radius) {
+    @include bg($width,$height,$bg-color);
+    border-radius: $border-radius;
+}

@@ -1,0 +1,20 @@
+.div1{
+    @include bg(100%,600px,#fff);
+    padding: 35px 0 95px 0;
+}
+.div3{
+    @include bg(515px,415px,$l3-1);
+}
+h5{
+    @include text(600,27px,"Poppins" ,$d1-1);
+}
+#-p1{
+@include text(400,15px,"Poppins-Regular",$primary-1);
+}
+h2{
+    @include text(300,35px,"Poppins-Medium",#000);
+   margin-bottom: 30px;
+}
+p{
+    @include text(300,16px,"Poppins-Regular",#51555a);
+}

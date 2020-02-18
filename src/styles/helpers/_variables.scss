@@ -1,0 +1,47 @@
+$primary-1:#03a9f4;
+$primary-2:#f75e2e;
+$primary-3:#ecfa4d;
+$primary-4:#656a70;
+
+/*Light-color-prim1 */
+$l1-1:mix(#fff,$primary-1,40%);
+$l2-1:mix(#fff,$primary-1,75%);
+$l3-1:mix(#fff,$primary-1,90%);
+/*Dark-color-prim1*/
+
+$d1-1:mix(#000,$primary-1,20%);
+$d2-1:mix(#000,$primary-1,50%);
+$d3-1:mix(#000,$primary-1,70%);
+
+/*Light-color-prim2*/
+$l1-2:mix(#fff,$primary-2,40%);
+$l2-2:mix(#fff,$primary-2,75%);
+$l3-2:mix(#fff,$primary-2,90%);
+/*Dark-color-prim2*/
+$d1-2:mix(#000,$primary-2,20%);
+$d2-2:mix(#000,$primary-2,50%);
+$d3-2:mix(#000,$primary-2,70%);
+
+/*Light-color-prim3*/
+$l1-3:mix(#fff,$primary-3,40%);
+$l2-3:mix(#fff,$primary-3,75%);
+$l3-3:mix(#fff,$primary-3,90%);
+/*Dark-color-prim3*/
+$d1-3:mix(#000,$primary-3,20%); 
+$d2-3:mix(#000,$primary-3,50%);
+$d3-3:mix(#000,$primary-3,70%);
+
+/*Light-color-prim3*/
+$l1-4:mix(#fff,$primary-4,40%);
+$l2-4:mix(#fff,$primary-4,75%);
+$l3-4:mix(#fff,$primary-4,90%);
+/*Dark-color-prim3v*/
+$d1-4:mix(#000,$primary-4,20%);
+$d2-4:mix(#000,$primary-4,50%);
+$d3-4:mix(#000,$primary-4,70%);
+
+.paragraph{
+        font-size: 14px;
+        font-family: "Poppins";
+        color: rgb(81, 85, 90);  
+}

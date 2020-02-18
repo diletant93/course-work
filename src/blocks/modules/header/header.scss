@@ -1,0 +1,17 @@
+*{
+    margin:0;
+    padding:0;
+}
+@font-face{
+    src: url(../../../fonts/font_course/OpenSans-Bold.ttf);
+    font-family: "OpenSans-Bold";
+}
+.container{
+    width: 960px;
+    padding:0 10px;
+    margin:0 auto;
+}
+header{
+   @include bg(100%,100px,$primary-1);
+}
+
